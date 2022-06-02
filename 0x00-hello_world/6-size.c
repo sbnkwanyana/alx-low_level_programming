@@ -2,7 +2,7 @@
 #include <stdint.h>
 /**
  * main - Entry point
- *  Printf: with proper grammar, but the outcome is a piece of art,
+ *  Print sizeof (type)
  * Return: 0 (Success)
  */
 int main(void)
