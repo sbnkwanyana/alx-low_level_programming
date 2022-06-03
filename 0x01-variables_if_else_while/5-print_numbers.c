@@ -1,15 +1,18 @@
 #include <stdio.h>
 /**
- * entry point: main
- * description: print numbers for loop printf function
- * return (0) success
+ * main - entry point
+ * description print numbers 0 - 9
+ * Return: 0
  */
 int main(void)
 {
-    int number;
-    for (number=0; number<=9; number++)
-    {
-        printf("%d", number);
-    }
-    return (0);
+	int number = 0;
+
+	while (number <= 9)
+	{
+		printf("%i", number);
+		number++;
+	}
+	putchar('\n');
+	return (0);
 }
