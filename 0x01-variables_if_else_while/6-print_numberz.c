@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- * entry point: main
- * description: print numbers putchar function with newline
- * return (0) success
+ * main - entry point
+ * description print numbers 0 - 9 using putchar
+ * Return: 0
  */
 int main(void)
 {
-    int number;
-    for (number=0; number<=9; number++)
-    {
-        putchar(number);
-    }
-    putchar('\n');
-   return (0);
+	int number = 0;
+
+	while (number <= 9)
+	{
+		putchar(number);
+		number++;
+	}
+	putchar('\n');
+	return (0);
 }
