@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
- * entry point: main
- * description: print
- * return (0) success
+ * main - entry point
+ * descripton print alphabet lowercase reverse order
+ * Return: 0
  */
-
 int main(void)
 {
-   char ch;
-   for(ch='z'; ch<='a'; ch--)
-   {
-      putchar(ch);
-   }
-   return (0);
+	char ch;
+
+	for (ch = 'z'; ch <= 'a'; ch--)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
