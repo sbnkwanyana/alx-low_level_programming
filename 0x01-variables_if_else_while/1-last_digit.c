@@ -10,13 +10,11 @@
 int main(void)
 {
 	int n;
+	char text[] = "Last digit of ";
+	int lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	char text[] = "Last digit of ";
-
-	int lastDigit = n % 10;
 
 	if (lastDigit == 0)
 	{
