@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * entry point: main
- * description: 0. Positive anything is better than negative nothing
- *  return success (0)
+ * main - main block
+ * variable n will be stored
+ * Return: 0
  */
 int main(void)
 {
@@ -12,7 +12,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
 		printf("%i is positive\n", n);
 	else if (n < 0)
