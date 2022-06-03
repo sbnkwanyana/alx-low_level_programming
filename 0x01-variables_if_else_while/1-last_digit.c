@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int n;
+	int n = 0;
 	char text[] = "Last digit of ";
 	int lastDigit = n % 10;
 
