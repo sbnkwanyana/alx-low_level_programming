@@ -4,11 +4,12 @@
 /**
  * entry point: main
  * description: 0. Positive anything is better than negative nothing
- *  @return success (0)
+ *  return success (0)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
