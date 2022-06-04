@@ -10,9 +10,9 @@ int main(void)
 {
 	int x = 0, y = 0;
 
-	while (x < 9)
+	while (x < 10)
 	{
-		while (y < 9)
+		while (y < 10)
 		{
 			if (x == y)
 			{
