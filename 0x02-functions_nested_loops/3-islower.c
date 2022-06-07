@@ -1,10 +1,17 @@
 #include <ctype.h>
 
 /**
- * is_lower - prints alphabet in lowecase ten times
+ * is_lower - uses islower function from ctype header
  * Return: int
  */
 int _islower(int c)
 {
-	return islower(c);
+	if (islower(c))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
