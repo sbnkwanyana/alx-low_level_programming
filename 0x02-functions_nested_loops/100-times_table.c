@@ -9,7 +9,7 @@
 
 void print_times_table(int n)
 {
-	int times = n, by = n, equals;
+	int times, by, equals;
 
 	if (n < 0)
 	{
@@ -21,9 +21,9 @@ void print_times_table(int n)
 	}
 	else
 	{
-		for (times = 0; times < times; times++)
+		for (times = 0; times < n; times++)
 		{
-			for (by = 0; by < by; by++)
+			for (by = 0; by < n; by++)
 			{
 				equals = times * by;
 				if (equals > 9)
