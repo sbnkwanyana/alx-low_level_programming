@@ -21,9 +21,9 @@ void print_times_table(int n)
 	}
 	else
 	{
-		for (times = 0; times < 10; times++)
+		for (times = 0; times < times; times++)
 		{
-			for (by = 0; by < 10; by++)
+			for (by = 0; by < by; by++)
 			{
 				equals = times * by;
 				if (equals > 9)
