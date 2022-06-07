@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * print_sign - returns 1 if positive and 0 if negative and -1 if 0
+ * _abs - returns absolute value of a digit
  *  - input
  * Return: int
  */
