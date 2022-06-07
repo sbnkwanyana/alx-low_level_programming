@@ -3,7 +3,8 @@
 
 /**
  * add - adds 2 numbers
- * @c: a number 1, b number 2
+ * @a: a number 1
+ * @b: number 2
  * Return: int
  */
 
