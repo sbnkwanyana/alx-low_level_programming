@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include <ctype.h>
 
 /**
  * is_lower - prints alphabet in lowecase ten times
- * Return: void
+ * Return: int
  */
-
-int islower(int c)
+int _islower(int c)
 {
-	return _islower(c);
+	return islower(c);
 }
