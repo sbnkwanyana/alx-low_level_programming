@@ -15,7 +15,15 @@ void times_table(void)
 		for (by = 0; by < 10; by++)
 		{
 			equals = times * by;
-			_putchar('0' + equals);
+			if (equals > 9)
+			{
+				_putchar('0' + equals / 10);
+				_putchar('0' + equals % 10);
+			}
+			else
+			{
+				_putchar('0' + equals);
+			}
 			if (by != 9)
 			{
 				_putchar(',');
