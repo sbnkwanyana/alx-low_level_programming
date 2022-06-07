@@ -10,7 +10,7 @@ void print_to_98(int n)
 {
 	for (n = n ; n < 99; n++)
 	{
-		if(n < -9 || n > 9)
+		if (n < -9 || n > 9)
 		{
 			_putchar('0' + n / 10);
 			_putchar('0' + n % 10);
@@ -25,4 +25,5 @@ void print_to_98(int n)
 			_putchar(' ');
 		}
 	}
+	_putchar('\n');
 }
