@@ -32,7 +32,9 @@ void print_to_98(int n)
 			}
 			else if (n < -99)
 			{
-
+				_putchar('0' + n / 100);
+				_putchar('0' + n / 10);
+				_putchar('0' + n % 10);
 			}
 			else
 			{
