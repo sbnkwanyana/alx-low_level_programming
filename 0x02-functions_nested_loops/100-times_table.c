@@ -21,9 +21,9 @@ void print_times_table(int n)
 	}
 	else
 	{
-		for (times = 0; times < n; times++)
+		for (times = 0; times <= n; times++)
 		{
-			for (by = 0; by < n; by++)
+			for (by = 0; by <= n; by++)
 			{
 				equals = times * by;
 				if (equals > 9)
@@ -36,7 +36,7 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar('0' + equals);
 				}
-				if (by != by - 1)
+				if (by != n)
 				{
 					_putchar(',');
 					_putchar(' ');
