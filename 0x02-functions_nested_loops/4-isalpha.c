@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - uses isalpha function from ctype header
- *  - input
+ * @c: value to check input
  * Return: int
  */
 int _isalpha(int c)

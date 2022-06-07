@@ -4,7 +4,7 @@
 
 /**
  * _abs - returns absolute value of a digit
- *  - input
+ * @n: get absolute value of
  * Return: int
  */
 

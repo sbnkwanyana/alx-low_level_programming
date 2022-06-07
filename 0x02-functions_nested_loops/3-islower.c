@@ -2,7 +2,7 @@
 
 /**
  * _islower - uses islower function from ctype header
- *  - input
+ *  @c: value to check
  * Return: int
  */
 int _islower(int c)

@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - print all natual numbers to 98
- * @param n - start at value n
+ * @n - start at value n
  */
 
 void print_to_98(int n)
