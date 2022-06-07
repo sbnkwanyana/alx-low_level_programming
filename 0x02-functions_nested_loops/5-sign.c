@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * print_sign - uses islower function from ctype header
+ * print_sign - returns 1 if positive and 0 if negative and -1 if 0
  *  - input
  * Return: int
  */
 
 int print_sign(int n)
 {
+	int x;
 	if (n > 0)
 	{
-		putchar(43);
-		return (1);
+		x = 1;
+		putchar('+');
 	}
 	else if (n < 0)
 	{
-		putchar(45);
-		putchar(n);
+		putchar('-');
 		return (0);
 	}
 	else
@@ -24,4 +24,5 @@ int print_sign(int n)
 		putchar('0');
 		return (-1);
 	}
+	return (x);
 }
