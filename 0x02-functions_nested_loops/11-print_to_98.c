@@ -3,12 +3,12 @@
 
 /**
  * print_to_98 - print all natual numbers to 98
- * @n - start at value n
+ * @n: start at value n
  */
 
 void print_to_98(int n)
 {
-	if(n > 98)
+	if (n > 98)
 	{
 		for (n = n ; n > 97; n--)
 		{
