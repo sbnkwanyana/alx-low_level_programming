@@ -1,7 +1,8 @@
 #include <ctype.h>
 
 /**
- * is_lower - uses islower function from ctype header
+ * _islower - uses islower function from ctype header
+ *  - input
  * Return: int
  */
 int _islower(int c)
