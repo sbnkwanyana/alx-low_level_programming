@@ -2,12 +2,15 @@
 #include "main.h"
 
 /**
- * main - 
- * Return: 
+ * print_alphabet -prints alphabet in lowecase
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char alphabet = "\0";
+	for(alphabet = 'a'; alphabet < 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
 }
