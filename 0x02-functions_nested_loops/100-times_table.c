@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * times_table - print n times table
+ * print_times_table - print n times table
  * @n: how many times table
  * Return: void
  */
 
-void times_table(int n)
+void print_times_table(int n)
 {
 	int times = n, by = n, equals;
 	if (n < 0 || n > 15)
