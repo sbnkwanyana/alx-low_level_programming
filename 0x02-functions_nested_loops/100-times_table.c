@@ -28,7 +28,7 @@ void print_times_table(int n)
 		{
 			for (by = 0; by <= n; by++)
 			{
-				equals = times * by;
+				equals = times * n;
 				if (equals > 9)
 				{
 					_putchar('0' + equals / 10);
