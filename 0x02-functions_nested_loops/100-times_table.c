@@ -40,6 +40,7 @@ void print_times_table(int n)
 				}
 				if (by != n)
 				{
+					_putchar(' ');
 					_putchar(',');
 					_putchar(' ');
 				}
