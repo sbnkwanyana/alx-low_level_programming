@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_line - print diagonal line on terminal
+ * print_diagonal - print diagonal line on terminal
  * @n: number of lines
  * Return: void
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i;
 
