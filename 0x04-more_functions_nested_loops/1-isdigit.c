@@ -3,14 +3,14 @@
 #include <ctype.h>
 
 /**
- * _isupper - return 1 if c is uppercase and 0 if not
+ * _isdigit - return 1 is c is a digit or 0 if not
  * @c: input
  * Return: int
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (isupper(c))
+	if (isdigit(c))
 	{
 		return (1);
 	}
