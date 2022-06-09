@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <ctype.h>
-
 /**
  * _isupper - return 1 if c is uppercase and 0 if not
  * @c: input
