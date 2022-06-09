@@ -19,7 +19,7 @@ void more_numbers(void)
 			{
 				_putchar('0');
 			}
-			_putchar('0' + i);
+			_putchar('0' + x);
 		}
 		_putchar('\n');
 	}
