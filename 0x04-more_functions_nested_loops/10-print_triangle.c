@@ -9,16 +9,5 @@
 
 void print_triangle(int n)
 {
-	int i, x;
-
-	while (i < n)
-	{
-		while (x < n)
-		{
-			_putchar('#');
-			x++;
-		}
-		i++;
-		_putchar('\n');
-	}
+	
 }
