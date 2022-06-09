@@ -14,7 +14,6 @@ void more_numbers(void)
 	{
 		for (x = 0; x < 15; x++)
 		{
-			
 			if (x > 9)
 			{
 				_putchar(49);
