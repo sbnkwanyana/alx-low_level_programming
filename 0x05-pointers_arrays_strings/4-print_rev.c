@@ -22,7 +22,7 @@ void print_rev(char *s)
 		for (i = 0; i < len; i++)
 		{
 			char ch = s[len - i];
-			printf("%s", ch);
+			puts(ch);
 		}
 	}
 }
