@@ -21,7 +21,7 @@ void print_rev(char *s)
 
 		for (i = 0; i < len; i++)
 		{
-			printf("%s", s[len - i - 1]);
+			printf("%s", s[len - i]);
 		}
 	}
 }
