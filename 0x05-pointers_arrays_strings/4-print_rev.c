@@ -12,18 +12,15 @@ void print_rev(char *s)
 {
 	if (s <= 0)
 	{
-		puts("");
+		putchar("\n");
 	}
 	else
 	{
 		int i;
-		int len = strlen(s);
-		char ch;
 
-		for (i = 0; i < len; i++)
+		for (i = strlen(s); i >= 0; i--)
 		{
-			ch = s[len - i];
-			printf("%s", ch);
+			putchar(s[i]);
 		}
 	}
 }
