@@ -21,8 +21,8 @@ void print_rev(char *s)
 
 		for (i = 0; i < len; i++)
 		{
-			char ch = s[len - i];
-			puts(ch);
+			char *ch = s[len - i];
+			puts(s[len - i]);
 		}
 	}
 }
