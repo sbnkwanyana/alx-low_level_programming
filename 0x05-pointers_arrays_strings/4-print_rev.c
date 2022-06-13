@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * print_rev - return length of a string
