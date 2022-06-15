@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * _strncat - 
+ * _strncat - concat with number of bytes/charcters
  * @dest: destination string
  * @src:source string
  * @n: number of bytes/characters to take
- * Return: 
+ * Return: destination string pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
