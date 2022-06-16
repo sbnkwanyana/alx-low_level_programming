@@ -9,29 +9,21 @@
 
 char *leet(char *str)
 {
-	unsigned long i;
+	int i, x;
 
-	for (i = 0; i <= strlen(str); i++)
+	char checks1[] = "aeotl";
+	char checks2[] = "AEOTL";
+	char replacements[] = "43071";
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == 'a' || str[i] == 'A')
+		for (x = 0; x < 5; x++)
 		{
-			str[i] = '4';
-		}
-		if (str[i] == 'e' || str[i] == 'E')
-		{
-			str[i] = '3';
-		}
-		if (str[i] == 'o' || str[i] == 'O')
-		{
-			str[i] = '0';
-		}
-		if (str[i] == 't' || str[i] == 'T')
-		{
-			str[i] = '7';
-		}
-		if (str[i] == 'l' || str[i] == 'L')
-		{
-			str[i] = '1';
+			if (str[i] == checks1[x] || str[i] == checks2[x])
+			{
+				str[i] = replacements[x];
+				break;
+			}
 		}
 	}
 	return (str);
