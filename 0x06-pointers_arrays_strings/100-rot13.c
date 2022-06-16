@@ -17,13 +17,13 @@ char *rot13(char *str)
 	{
 		if ((str[i] > 64 && str[i] < 91) || (str[i] > 96 && str[i] < 123))
 		{
-			if (str[i] = (str[i] - 65 > 25))
+			if (str[i] - 65 > 25)
 			{
-				lower[str[i] - 97];
-			}	
+				str[i] = lower[str[i] - 97];
+			}
 			else
 			{
-				upper[str[i] - 65];
+				str[i] = upper[str[i] - 65];
 			}
 		}
 	}
