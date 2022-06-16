@@ -9,7 +9,7 @@
 
 char *string_toupper(char *str)
 {
-	int i;
+	unsigned long i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
@@ -18,4 +18,5 @@ char *string_toupper(char *str)
 			str[i] = str[i] - 32;
 		}
 	}
+	return (str);
 }
