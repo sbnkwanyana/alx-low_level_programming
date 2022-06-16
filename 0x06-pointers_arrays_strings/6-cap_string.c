@@ -9,7 +9,7 @@
 
 char *cap_string(char *str)
 {
-	int i;
+	unsigned long i;
 
 	if (str[0] >= 'a' && str[0] <= 'z')
 	{
@@ -90,4 +90,5 @@ char *cap_string(char *str)
 				continue;
 		}
 	}
+	return (str);
 }
