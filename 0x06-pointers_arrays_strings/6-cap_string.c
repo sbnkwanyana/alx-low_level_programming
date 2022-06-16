@@ -16,74 +16,74 @@ char *cap_string(char *str)
 		str[0] = str[0] - 32;
 	}
 
-	for(i = 0; i <= strlen(str); i++)
+	for (i = 0; i <= strlen(str); i++)
 	{
-		switch(str[i])
+		switch (str[i])
 		{
 			case ' ':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '.':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case ',':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case ';':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '!':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '?':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '\\':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '(':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case ')':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '{':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			case '}':
-				if (str[i+1] >= 'a' && str[i+1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					str[i+1] = str[i+1] - 32;	
+					str[i + 1] = str[i + 1] - 32;
 				}
 				break;
 			default:
