@@ -9,29 +9,30 @@
 
 char *leet(char *str)
 {
-	int i;
+	unsigned long i;
 
 	for (i = 0; i <= strlen(str); i++)
 	{
 		if (str[i] == 'a' || str[i] == 'A')
 		{
-			str[i] == 4;
+			str[i] = 4;
 		}
 		if (str[i] == 'e' || str[i] == 'E')
 		{
-			str[i] == 3;
+			str[i] = 3;
 		}
 		if (str[i] == 'o' || str[i] == 'O')
 		{
-			str[i] == 0;
+			str[i] = 0;
 		}
-		if (str[i] == 'at' || str[i] == 'T')
+		if (str[i] == 't' || str[i] == 'T')
 		{
-			str[i] == 7;
+			str[i] = 7;
 		}
 		if (str[i] == 'l' || str[i] == 'L')
 		{
-			str[i] == 1;
+			str[i] = 1;
 		}
 	}
+	return (str);
 }
