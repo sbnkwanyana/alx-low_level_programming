@@ -4,7 +4,7 @@
  * main - program entry that prints arguments followed by new line
  * @argc: unused arguments count
  * @argv: argument array
- * Return - 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
