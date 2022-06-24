@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - program entry that prints out the name if the application
+ * main - program prints its name, followed by a new line.
  * @argc: unused parameter
  * @argv: array argument list
- * Return - 0
+ * Return: int 0
  */
 
 int main(int argc, char *argv[])
