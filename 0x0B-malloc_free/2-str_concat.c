@@ -10,12 +10,13 @@
  * @s2: string 2
  * Return: concatinated string
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	char *mem;
-	unsigned long i;
-	int j;
+	int i;
+	size_t string1;
+	size_t string2;
+	size_t string3;
 
 	if (s1 == NULL)
 	{
@@ -25,24 +26,26 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-
-	mem = malloc((strlen(s1) + strlen(s2) + 1));
-
+	i = 0;
+	string1 = strlen(s1);
+	string2 = strlen(s2);
+	string3 = string1 + string2 + 1;
+	mem = malloc(string3);
 	if (mem != NULL)
 	{
-		for (i = 0; i <  strlen(s1); i++)
+		while (*s1 != '\0')
 		{
-			mem[i] = s1[0];
+			mem[i] = *s1;
+			s1++;
+			i++;
 		}
-
-		for (j = 0; i < strlen(mem); i++)
+		while (*s2 != '\0')
 		{
-			mem[i] = s2[j];
-			j++;
+			mem[i] = *s2;
+			s2++;
+			i++;
 		}
-
-		/* mem[i] = "\0"; */
+		mem[i] = '\0';
 	}
-
 	return (mem);
 }
