@@ -19,7 +19,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	mem = malloc(sizeof(str));
+	mem = malloc(strlen(str));
 
 	if (mem == NULL)
 	{
@@ -32,5 +32,4 @@ char *_strdup(char *str)
 	}
 
 	return (mem);
-
 }
