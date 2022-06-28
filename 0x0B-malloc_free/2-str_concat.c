@@ -4,10 +4,11 @@
 #include <string.h>
 
 /**
- * str_concat -
- * @s1: 
- * @s2: 
- * Return: 
+ * str_concat - function that returns pointer to allocated memory
+ * with contents of the concatinated strings
+ * @s1: string 1
+ * @s2: string 2
+ * Return: concatinated string
  */
 
 char *str_concat(char *s1, char *s2)
@@ -25,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	mem = malloc((strlen(s1 + strlen(s2) + 1)));
+	mem = malloc((strlen(s1) + strlen(s2) + 1));
 
 	if (mem != NULL)
 	{
