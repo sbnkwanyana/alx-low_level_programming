@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_list - 
- * @h:
+ * print_list - function prints all elements of list_t
+ * @h: linked list
  * Return: number of elements
  */
 
@@ -20,18 +20,18 @@ size_t print_list(const list_t *h)
 
 	while (h != NULL)
 	{
-		if (h -> str == NULL)
+		if (h->str == NULL)
 		{
 			printf("[%d] ", 0);
 			printf("%s\n", "(nil)");
 		}
 		else
 		{
-			printf("[%d] ", h -> len);
-			printf("%s\n", h -> str);
+			printf("[%d] ", h->len);
+			printf("%s\n", h->str);
 		}
 		i += 1;
-		h = h -> next;
+		h = h->next;
 	}
 
 	return (i);
