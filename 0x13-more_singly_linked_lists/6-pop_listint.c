@@ -24,6 +24,3 @@ int pop_listint(listint_t **head)
 
 	return (node->n);
 }
-
-
-//NOTE: return (nil) instead of junk data 
