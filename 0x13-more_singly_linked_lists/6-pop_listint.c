@@ -24,6 +24,10 @@ int pop_listint(listint_t **head)
 	{
 		*head = node->next;
 	}
+	else
+	{
+		*head = NULL;
+	}
 	value = node->n;
 	free(node);
 	return (value);
