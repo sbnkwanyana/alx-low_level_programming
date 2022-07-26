@@ -1,7 +1,4 @@
 #include "main.h"
-#include <fcntl.h>
-#include <sys/types.h>
-#include <sys/stat.h>
 
 /**
  * read_textfile - function that reads a text file
